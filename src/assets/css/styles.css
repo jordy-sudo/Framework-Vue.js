@@ -215,7 +215,18 @@ body {
 .btn-success:hover{
     background:black;
 }
-
+.btn-danger{
+    background: rgb(226, 5, 5) !important;
+    color:white !important;
+    float: left;
+    margin-right: 20px;
+  }
+  .btn-warning{
+    background: rgb(250, 150, 0) !important;
+    color:white !important;
+    float: left;
+  }
+  
 .mid-form{
     width: 50%;
     margin: 0px auto;

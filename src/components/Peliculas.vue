@@ -5,7 +5,7 @@
     <div class="center">
       <section id="content">
         <h1 class="subheader">Lisitado de Peliculas</h1>
-        <h2>La pelicula favorita es : {{favorita.title}}</h2>
+        <h2>La pelicula favorita es : {{favorita}}</h2>
         <!--Listado articulos-->
         <div id="articles">
           <div v-for="pelicula in peliculas" v-bind:key="pelicula.title">

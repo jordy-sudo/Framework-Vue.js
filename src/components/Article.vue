@@ -14,8 +14,12 @@
               />
             </div>
 
-            <h2>{{article.title}}</h2>
-            <span class="date"> {{article.date}} </span>
+            <h2>
+              <router-link :to="{name:'detalle', params:{id:article._id}}">
+                {{article.title}}
+              </router-link>
+              </h2>
+            <span class="date"> {{article.date | moment("from","now")}} </span>
             <a href="#">Leer más</a>
 
             <div class="clearfix"></div>

@@ -7,7 +7,7 @@
     <h2>{{ peliculaRsv.title }}</h2>
     <span class="date"> Hace 5 minutos </span>
     <a href="#">Leer más</a>
-    <input type="button" value="marcar como favorita" @click="PasarFavoritaAlPadre(peliculaRsv)"/>
+    <input type="button" value="marcar como favorita" @click="PasarFavoritaAlPadre(peliculaRsv.title)"/>
     <div class="clearfix"></div>
   </article>
 </template>
